@@ -26,22 +26,18 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
+          <Col md={5} style={{ paddingTop: "120px", paddingBottom: "50px" }} className="about-img">
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
-          전문적인 <strong className="purple">기술 스택</strong>
+          <strong className="purple">기술 스택</strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          사용하는 <strong className="purple">도구들</strong>
+          <strong className="purple">개발 Tools</strong>
         </h1>
         <Toolstack />
 
